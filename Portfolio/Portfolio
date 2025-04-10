@@ -337,6 +337,21 @@
       </div>
 
   </section>
+  
+  <section id="skills">
+    <h2>Skills & Tools</h2>
+    <p><strong>Languages:</strong> C#, HLSL</p>
+    <p><strong>Tools:</strong> Unity, Shader Graph, Blender, FMOD, Git, GitHub, SVN, ProBuilder, Photon, Oculus SDK, Shopify API</p>
+    <p><strong>Roles:</strong> Gameplay Programming, Level Design, UI/UX, Game Jam Development, Multiplayer Networking, Blockchain Integration</p>
+    <p><strong>Genres Worked On:</strong> 2D Puzzle, 3D Puzzle, Hypercasual, Simulation, Multiplayer, Relaxation, VR, Web3</p>
+    <p><strong>Special Features:</strong> Crypto Wallet Integration, Shopify API Integration in Unity 3D Games</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ahmedraza24@hotmail.co.uk">ahmedraza24@hotmail.co.uk</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-raza-rana-1ba4b3108?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Ahmed Raza Rana</a></p>
+  </section>
 
   <footer>
     <p>&copy; 2025 Ahmed Raza Rana | Unity Game Developer</p>
