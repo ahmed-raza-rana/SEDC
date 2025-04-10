@@ -1,0 +1,345 @@
+<!-- Unity Game Developer Portfolio HTML Template -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Raza Rana | Unity Game Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #1e1e1e;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 80px 20px;
+      background: linear-gradient(135deg, #121212, #2c3e50);
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+      color: #ff4757;
+    }
+    header p {
+      font-size: 20px;
+      margin: 10px 0 30px;
+    }
+    .btn {
+      padding: 12px 24px;
+      background: #ff4757;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #ff6b81;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ff4757;
+      display: inline-block;
+    }
+    .project {
+      background: #2a2a2a;
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+      position: relative;
+    }
+    .project img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 15px;
+    }
+    .project h3 {
+      color: #ff6b81;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #121212;
+    }
+    a {
+      color: #1abc9c;
+    }
+    .project-icon {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px;
+      margin-right: 20px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ahmed Raza Rana</h1>
+    <p>Unity Game Developer | 6+ Years Experience | C# Expert | Game Designer</p>
+    <p>Specialized in 2D/3D Puzzle, Hypercasual, Simulation, Multiplayer, Relaxing, VR, and Web3 Games</p>
+    <a href="#projects" class="btn">View Projects</a>
+    <a href="#contact" class="btn">Contact Me</a>
+  </header>
+
+  <section id="projects">
+    <h2>Featured Projects</h2>
+
+    <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/mCHDV-BsOkl4oZa-W0mI4fl5n61yjPkyOVZVOwdUEbkFmKqlxX3xq1lunlg1tFYwq4c=s75-rw" alt="Prankster 3D" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Prankster 3D</h3>
+          <p>A hilarious and thrilling offline prank game where Nick teaches Misty a lesson through creative mischief.</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Offline Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/prankster-3d/com.zatg.scaryteacher.prankme/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/dMNqjjWgsY8EyC5ybwu7pu_St6OdN17CGO26NJAemEQhw9MAuz6But-bj29x_NaTHmCq=s75-rw" alt="Idle Daycare Tycoon - Rich Me" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Idle Daycare Tycoon - Rich Me</h3>
+          <p>Build your daycare empire, manage adorable babies, and become the best babysitter in this addictive money tycoon simulator. Grow your daycare business, upgrade facilities, and earn great profits!</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Idle Tycoon Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/idle-daycare-tycoon-rich-me/com.puzzlecorp.daycare.idle.game/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/5V8-LC-SLGOx1LnnRsTnEk-0_wiTZCKjcZwknPAx5xWINsVe7Bf_GhIGrocrTKJzl5Q=s75-rw" alt="High School Bully" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>High School Bully</h3>
+            <p>Unravel the mystery and take down the bully in this story-driven survival adventure at Lakeview High.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, Puzzle Mechanics, Narrative Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/high-school-bully/com.zatg.scarybully/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/3vuD_fCUlfmKrvVF-nJvCpLD84r5gzJ73q7NIB0XUrGwhiFQQYFtYZqs0sQd6od1RQ=s75-rw" alt="No WiFi: All Mini Puzzle Games" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>No WiFi: All Mini Puzzle Games</h3>
+      <p>A fun offline bundle with 10+ mind-tickling mini games from Sudoku to ASMR fidget toys and word games.</p>
+      <p><strong>Tech Stack:</strong> Unity, C#, Offline Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/no-wifi-all-mini-puzzle-games/com.offline.no.wifi.all.mini.puzzle.games/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/1V1OUdbygf3nZcTAEpbI9tsFo1szqx7gVrHR9UkzxmU8UPcSjeMBTxN2qmbKF8IF-U0=s75-rw" alt="Goat Fun Simulator" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>Goat Fun Simulator</h3>
+            <p>Live the life of a free-spirited goat! Explore the world, make decisions, and enjoy the adventure as a goat in this fun and interactive simulator.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, 3D Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/goat-fun-simulator/com.genigames.goatlife/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/WzL5m1y7k1ugLNpQCUdpjtNWrYB0RI_sYNFegIAld_sSpZ_V5O2QOED3sJMMX_tKqe0=s75-rw" alt="Farm Master" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>Farm Master</h3>
+            <p>Unleash your farming skills and build the farm of your dreams, growing crops and raising animals in this immersive farming simulator.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, 3D Simulation</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/farm-master/com.farm.harvest.tycoon/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/e0BnggW4MHlAxz5FmfbKTNVzqcr42sYdBan3Ixo5vZ9DuD8tdKWhyVUh7bhZ-EooRkA=s75-rw" alt="Idle Toy Factory" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>Idle Toy Factory</h3>
+            <p>Manage your own toy factory, lead the workers, and produce high-quality products in this idle clicker factory empire simulator game.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, Idle Clicker Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/idle-toy-factory/com.genigames.toy.factory.tycoon.game/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/_qzoxPTbTQzUd-pIJ-2FPGfhKDLtH4Vhp2FVshzKhBvP8VRT04iYVZ0Bt0pbbnHhif0=s75-rw" alt="Elastic Hero" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>Elastic Hero</h3>
+            <p>Stretch and bounce the elastic Spider-man through towers to reach the top in this fun and addictive game with one-touch controls.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, One-Touch Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/elastic-hero/com.puzzlecorp.ElasticHero/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/ozUZSlMYHzkpW8hguwJ800h6DMUB_lKkb-9olKUATdhXSJCviQjFL7aK6BPww5N1b3FF=s75-rw" alt="Unscrew Puzzle - Nuts & Bolts" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Unscrew Puzzle - Nuts & Bolts</h3>
+          <p>Unscrew all the nuts and bolts from wooden pieces in this challenging and addictive puzzle game. The more advanced you get, the harder it becomes to figure out how to unlock and unscrew the pieces. Test your problem-solving skills and become an expert in unscrewing nuts and bolts!</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Puzzle Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/unscrew-puzzle-nuts-bolts/com.wood.nuts.bolts.screw.puzzle/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+      
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/-tR-Xkj5A2_LWuVgLTe7Jo0z7tc2hc-8BImwbv0c-WluRciXf7oI7sxD3zGcci1zt4-m=s75-rw" alt="Water Sort Puzzle: Color Water" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Water Sort Puzzle: Color Water</h3>
+          <p>Sort color water into different glass tubes until all colors are combined in the same tube. A challenging yet relaxing puzzle game to test and improve your brain's critical thinking skills!</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Puzzle Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/water-sort-puzzle-color-water/water.sort.color.puzzle.games.puzsort/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/vYck-gugyRBJfaWNBd_ObGoJILEBShvOr1aSE-DDn1G8A8R4ZANX4R_vLadPhuk8fA=s75-rw" alt="Connect the Dots: Color Puzzle" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Connect the Dots: Color Puzzle</h3>
+          <p>Enjoy the challenge of connecting matching dots in this brain-teasing puzzle game. The more levels you progress, the harder the puzzles get, testing your strategic thinking and puzzle-solving skills. Can you connect the dots and complete the colorful line puzzles?</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Puzzle Gameplay</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/connect-the-dots-color-puzzle/connect.dots.knot.pipeart.line.color.games/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://colorpik.ai/wp-content/uploads/2021/02/app4.png" alt="ColorPik App" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>ColorPik App</h3>
+          <p>ColorPik is an innovative app that allows you to scan colors from a pen, and then use Bluetooth connectivity to apply the same color within the app. This unique feature enhances the user’s experience by seamlessly blending the physical and digital worlds, making it easier and more interactive to match colors digitally.</p>
+          <p><strong>Tech Stack:</strong> Bluetooth Connectivity, Color Detection, Mobile App Development</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://colorpik.ai/wp-content/uploads/app/colorpik-class.apk" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download App</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://supermemefighter.xyz/home/blur/assets/images/logo.webp" alt="Super Meme Fighter" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Super Meme Fighter</h3>
+          <p>Super Meme Fighter is a unique online gaming platform tailored for meme coin enthusiasts and their communities. It combines gaming, meme culture, and blockchain technology to create an entertaining experience. Players can battle with characters inspired by popular meme coins, competing for both fame and valuable rewards. The platform celebrates the creativity of the meme coin movement and offers a secure, transparent space for competition.</p>
+          <p><strong>Tech Stack:</strong> Blockchain, Gaming, Cryptocurrency Integration</p>
+        </div>
+        
+        <!-- Visit button positioned at the bottom-right -->
+        <a href="https://supermemefighter.xyz/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Visit Website</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/v5HKAIUGeR4R9c8Wonwe7jm-hkGr-MkgjcU2_QPxcbLahBi6o5DYJf_mM23AkwNiI7g=s75-rw" alt="CatFall" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>CatFall</h3>
+          <p>Based on a real-life story, CatFall follows a cute cat jumping from one of the highest buildings in the city, avoiding obstacles as it falls to the ground and survives. Collect delicious fish chips along the way and unlock various cat options in the store. Hours of fun await!</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Game Design</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/catfall/com.inventario.catfall/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+      
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/DHwVz6Av5RZP8x6nRwm_66DKCgA-P4ZuiH10lfvePOZoRYlOE4_c5dcGQ8b6YEBWI9GC=s75-rw" alt="Fidget Toys Game - Pop it ASMR" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Fidget Toys Game - Pop it ASMR</h3>
+          <p>Challenge your mind and relieve stress with the variety of fidget toys in Pop it ASMR! Enjoy brain teasers, matching colors, popping different shapes, and calming sensory stimulation. This game is designed to help you relax while offering endless entertainment with soothing sounds and satisfying gameplay.</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Game Art Design</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/fidget-toys-game-pop-it-asmr/com.gw.fidget.toys.antistress.relaxation.anxiety.relief.games/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/gdDMoBt5UeaJaptvKqOu27TJWexRvLl-exBv-8JkT2LudAV5HuiijrRJK_KjK6w2Vlbi=s75-rw" alt="Tattoo Drawing - Tattoo Games" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+          <h3>Tattoo Drawing - Tattoo Games</h3>
+          <p>Design your tattoos with the finest tattoo drawing app! Choose from a variety of tattoo styles like dragons, hearts, mandalas, and more. Test the tattoos on your photos and experiment with different designs to express your personality. Be a tattoo master and create beautiful artwork in this tattoo maker game!</p>
+          <p><strong>Tech Stack:</strong> Unity, C#, Game Art Design</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/tattoo-drawing-tattoo-games/com.biza.tattoogames.tattoo.design.studio.game/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/gxXHJoqvq5hYZFM8Tt_jct5V25cllXyd1XnVZxaN6VhEpm0yiRA3MhRah_oy_trhww=s75-rw" alt="Stray Cat Survival" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>Stray Cat Survival</h3>
+            <p>Survive as a stray cat in a dangerous city, exploring, finding food, and building shelter to face the challenges of the wild world.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, 3D Survival</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/stray-cat-survival/com.genigames.straycat.survival/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+      <div class="project" style="position: relative; display: flex; align-items: center; justify-content: space-between;">
+        <img src="https://play-lh.googleusercontent.com/FxG31osngLiIOzNPXAhVfx49aKRQbp6BHnCyW6ubr1mQ-u8JT4SkvQGseetQNe-bCS0e=s75-rw" alt="Fruit ASMR: Drop to Merge Game" style="width: 75px; height: auto; margin-right: 20px;">
+        
+        <div style="flex-grow: 1;">
+            <h3>Fruit ASMR: Drop to Merge Game</h3>
+            <p>Merge colorful fruit jellies and enjoy satisfying ASMR gameplay in this addictive puzzle game with increasing challenges.</p>
+            <p><strong>Tech Stack:</strong> Unity, C#, Puzzle Mechanics</p>
+        </div>
+        
+        <!-- Download button positioned at the bottom-right -->
+        <a href="https://apkcombo.com/fruit-asmr-drop-to-merge-game/com.genigames.watermelon.merge.games/" class="btn" target="_blank" style="position: absolute; bottom: 10px; right: 10px;">Download APK</a>
+      </div>
+
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ahmed Raza Rana | Unity Game Developer</p>
+  </footer>
+</body>
+</html>
